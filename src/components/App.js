@@ -28,7 +28,6 @@ class App extends Component {
   }
 
   updatePost( id, text ) {
-    console.log(id)
     axios.put(`https://practiceapi.devmountain.com/api/posts?id=${ id }`, { text }).then( results => {
       this.setState({ posts: results.data });
     }).catch(err => console.log(err) );
@@ -38,7 +37,6 @@ class App extends Component {
     axios.delete(`https://practiceapi.devmountain.com/api/posts?id=${ id }`)
     .then( results => {
       this.setState({ posts: results.data });
-      console.log(id)
     }).catch(err => console.log(err));
   }
 
