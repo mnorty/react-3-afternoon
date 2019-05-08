@@ -53,6 +53,3 @@ export default class Compose extends Component {
   }
 }
 
-
-// WEBPACK FOOTER //
-// ./src/components/Compose/Compose.js

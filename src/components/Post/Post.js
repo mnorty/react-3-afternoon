@@ -93,6 +93,3 @@ export default class Post extends Component {
   }
 }
 
-
-// WEBPACK FOOTER //
-// ./src/components/Post/Post.js
